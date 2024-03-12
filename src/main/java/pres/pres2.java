@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class pres2 {
     public static void main(String[] args) throws Exception {
+        System.out.println("version dynamiqure");
         Scanner sc = new Scanner(new File("config.txt"));
         String ClassName = sc.nextLine();
         Class d = Class.forName(ClassName);
